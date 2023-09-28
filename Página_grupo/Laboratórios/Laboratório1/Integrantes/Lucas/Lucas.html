@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Codificação de sinais e multimídia</title>
+</head>
+<body>
+  <header style="position: relative;">
+
+    <div class="w3-top" class="header" id="home">
+      <div class="w3-bar  w3-card w3-left-align w3-large heeder-large-screen" style="background-color: #000015;" >
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-black w3-large " href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+		<!-- <a href="#home" class="w3-bar-item w3-button w3-padding-large  w3-hover-black">Sobre</a>  -->
+      </div>
+    </div>
+  </header>
+      <section >
+         <div class="perfil" id="about">
+           <div class="perfil-description">
+             <div class="perfil-text">
+              <h1 class="perfil-title">Codificação de Sinais e Multimídia</h1>
+			  <br>
+			  <br>
+              <p>
+                Olá, sou o Lucas Aperguis! Sou aluno da Engenharia de Informação da UFABC! Sou formado na Engenharia de Instrumentação, Automação e Robótica também da UFABC.
+              </p>
+              <span class="w3-text-white social" style="margin-top:050px">
+                <p >Essa página é referente ao Laboratório 1 da disciplina</p>
+              </span>
+             </div>
+           </div>
+         </div>
+      </section>
+
+      
+      <main style="padding-bottom:40px ;">
+        <h2 class="title" id="arquivos">Resumo profissional</h2>
+        <div class="arquivos">
+          <div class="imagem">
+            <table>
+              <tr>
+                <td><img  width="180" height="180" src='https://media.licdn.com/dms/image/D4D03AQF2qrDVfSaN-w/profile-displayphoto-shrink_800_800/0/1666712438327?e=2147483647&v=beta&t=NNUezmFrzdHeuy2IXC9LavdyMWomfZsIDehFe3UFcDk'/></td>
+                <td align="right"><h5>Atualmente sou Especialista de Produtos da Siemens, da qual fui estagiário no Programa de Desenvolvimento de Talentos da SIEMENS, em que fiz parte da área de produtos de baixa e média tensão. Atualmente minha função se pauta nas especificações do painel SIVACON S4.</h5></td>
+              </tr>
+ 
+            </table>
+
+          </div>
+        </div>
+        
+      <h2 class="title">Arquivos</h2>
+		<div class="audio" id="audio" style="padding-bottom: 10px !important;">
+			<audio autoplay="muted" controls="controls" align="center">
+				<source src="audio.mp3" type="audio/mp3" />
+			</audio>
+		</div>
+      <div class="midia" id="midia" style="padding-bottom: 10px !important;">
+        <br>
+        <br>
+		<br>
+		<div class="multimidia" id="multimidia" align="center">
+			<video width="500" height="346" controls="controls">
+				<source src="video.mp4" type="video/mp4">
+			</video>
+			<iframe width="500" height="315" src="https://www.youtube.com/embed/8ACMBP-ZZC0?si=VQJRFc51dQNxHPBT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<br>
+			<br>
+			<br>
+			<object width="1000" height="500" data="artigo.pdf" type="application/pdf">
+			</object>
+		</div>	
+      </div>
+      
+    </div>
+        
+      </main>
+  
+
+      </div>
+      
+  <script>
+
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+</body>
+</html>

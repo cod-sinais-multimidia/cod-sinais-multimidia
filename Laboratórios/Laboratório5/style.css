@@ -23,15 +23,20 @@ h1 {
 
 h2 {
 	color: black;
-	font-family: Arial;
-	text-align: center;
+	font-family: Helvetica;
+	text-align: justify;
 	font-size: 20px;
+}
+h3{
+	color: black;
+	font-family: Helvetica;
+	font-size: 35px;
 }
 
 p {
   color: black;
   font-family: Courier;
-  text-align: center;
+  text-align: justify;
   font-size: 20px;
 }
 
@@ -71,25 +76,43 @@ p {
     text-align: left;
 }
 
-.integrantes{
+
+.pdfs{
+	float: left;
+	
+}
+.centro{
+	float: right;
+	width: 45%;
 	align-content: center;
 }
-
-.lucas{
+.descricao{
+	width: 90%;
+}
+.pdfs2{
 	float: left;
-	width: 25%;
+	
 }
-
-.matheus{
+.centro2{
+	float: right;
+	width: 45%;
+	align-content: center;
+}
+.descricao2{
+	width: 90%;
+}
+.pdfs3{
 	float: left;
-	width: 25%;
+	
 }
-.giovanne{
+.centro3{
 	float: right;
-	width: 25%;
+	width: 45%;
+	align-content: center;
+}
+.descricao3{
+	width: 90%;
 }
 
-.juliana{
-	float: right;
-	width: 25%;
-}
+
+

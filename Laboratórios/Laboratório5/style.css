@@ -83,36 +83,9 @@ p {
 }
 .centro{
 	float: right;
-	width: 41%;
+	width: 50%;
 	align-content: center;
 }
 .descricao{
 	width: 90%;
 }
-.pdfs2{
-	float: left;
-	
-}
-.centro2{
-	float: right;
-	width: 41%;
-	align-content: center;
-}
-.descricao2{
-	width: 90%;
-}
-.pdfs3{
-	float: left;
-	
-}
-.centro3{
-	float: right;
-	width: 41%;
-	align-content: center;
-}
-.descricao3{
-	width: 90%;
-}
-
-
-

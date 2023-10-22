@@ -11,7 +11,7 @@ header {
   background-color: #FF6347;
   padding: 30px;
   text-align: center;
-  font-size: 35px;
+  font-size: 50px;
   color: white;
 }
 
@@ -23,20 +23,15 @@ h1 {
 
 h2 {
 	color: black;
-	font-family: Helvetica;
-	text-align: justify;
+	font-family: Arial;
+	text-align: center;
 	font-size: 20px;
-}
-h3{
-	color: black;
-	font-family: Helvetica;
-	font-size: 35px;
 }
 
 p {
   color: black;
   font-family: Courier;
-  text-align: justify;
+  text-align: center;
   font-size: 20px;
 }
 
@@ -65,27 +60,40 @@ p {
 .perfil-text p{
     color:white;
     width: 100%;
-	text-align: left;
+	text-align: center;
 	font-size: 25px;
 }
 .perfil-title{
     font-weight: 800;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 60px;
     color:white;
-    text-align: left;
+    text-align: center;
 }
-
-
-.pdfs{
-	float: left;
-	
-}
-.centro{
-	float: right;
-	width: 50%;
+.labs{
 	align-content: center;
 }
-.descricao{
-	width: 90%;
+
+.button {
+  display: inline-block;
+  padding: 20px 30px;
+  font-size: 27px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #02C269;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 9px #424242;
+}
+.button:hover {
+	background-color: #016939
+}
+
+.button:active {
+  background-color: #016939;
+  box-shadow: 0 5px #424242;
+  transform: translateY(4px);
 }

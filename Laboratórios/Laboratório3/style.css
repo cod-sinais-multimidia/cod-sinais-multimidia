@@ -101,8 +101,33 @@ p {
 	background-color: #016939
 }
 
+
 .button:active {
   background-color: #016939;
   box-shadow: 0 5px #424242;
   transform: translateY(4px);
+}
+.buttonmenu {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #02C269;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 9px #424242;
+}
+.buttonmenu:hover {
+	background-color: #016939
+}
+
+.buttonmenu:active {
+  background-color: #016939;
+  box-shadow: 0 5px #424242;
+  transform: translateY(4px);
+}nsform: translateY(4px);
 }

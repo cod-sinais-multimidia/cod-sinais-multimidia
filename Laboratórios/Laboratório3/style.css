@@ -76,8 +76,11 @@ p {
     color:white;
     text-align: center;
 }
+
 .labs{
 	align-content: center;
+	width: 90%;
+	float: right;
 }
 
 .button {

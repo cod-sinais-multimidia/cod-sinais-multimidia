@@ -11,14 +11,8 @@
     background-color: #FF6347;
     padding: 30px;
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
     color: white;
-  }
-  .menu{
-      float: left;
-      width: 10%;
-      height:5020px;
-      background-color: #2f875e;
   }
   
   h1 {
@@ -29,16 +23,15 @@
   
   h2 {
       color: black;
-      font-family: Arial;
-      text-align: center;
-      font-size: 25px;
+      font-family: Helvetica;
+      text-align: justify;
+      font-size: 20px;
   }
-  
-  h3 {
+  h3{
       color: black;
-      font-family: Arial;
+      font-family: Helvetica;
+      font-size: 35px;
       text-align: center;
-      font-size: 30px;
   }
   h4 {
       color: black;
@@ -46,18 +39,14 @@
       text-align: justify;
       font-size: 17px;
   }
-  
-  h5 {
-      color: black;
-      font-family: Arial;
-      text-align: center;
-      font-size: 17px;
+  h5{
+      color: #00FA9A;
   }
   
   p {
     color: black;
     font-family: Courier;
-    text-align: center;
+    text-align: justify;
     font-size: 20px;
   }
   
@@ -86,25 +75,41 @@
   .perfil-text p{
       color:white;
       width: 100%;
-      text-align: center;
+      text-align: left;
       font-size: 25px;
   }
   .perfil-title{
       font-weight: 800;
       text-transform: uppercase;
-      font-size: 60px;
+      font-size: 50px;
       color:white;
-      text-align: center;
+      text-align: left;
   }
   
-  .audios{
-      align-content: center;
-      
+  
+  .pdfs{
+      float: left;
+      width: 50%;
+      height: 1270px;
   }
-  .integrantes{
-      align-content: center;
-      width: 88%;
+  .centro{
       float: right;
+      width: 50%;
+      align-content: center;
+  }
+  .descricao{
+      width: 90%;
+      height: 1253px;
+  }
+  
+  .total{
+      width: 90%;
+      align-content: center;
+  }
+  
+  .voltar{
+      align-content: center;
+      width: 100%;
   }
   .button {
     display: inline-block;
@@ -130,21 +135,12 @@
     box-shadow: 0 5px #424242;
     transform: translateY(4px);
   }
-  .buttonmenu {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 15px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: #02C269;
-    border: none;
-    border-radius: 20px;
-    box-shadow: 0 9px #424242;
+  .conteudo{
+      align-content: center;
+      float: center;
+      width: 100%
   }
-  .buttonmenu:hover {
-      background-color: #016939
+  .teste{
+      align-content: center;
+      
   }
-  

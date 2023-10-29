@@ -8,7 +8,7 @@
         #cabecalho{
             background-color:rgb(4, 42, 73);
             width: auto;
-            color: rgb(86, 245, 99);
+            color: rgb(3, 100, 11);
             height: 100%;
             margin: 20px auto;
             padding-left:20px;
@@ -18,8 +18,8 @@
             background-color: rgb(62, 132, 197);
             border: 2px solid #000000;
             width: 95%;
-            height: 60vh;
-            margin: 40px;
+            height: 80hv;
+            margin: 10px;
             padding-left: 10px;
             padding-right: 10px;
             padding-top:5px;
@@ -32,7 +32,7 @@
 </head>
 <body>
     <div id="cabecalho">
-        <center><font color="#00FF00" style = "font-family:'Script MT'" font size = 5><h1>Audio e Visão - Codificação de Sinais Multimidias</h1></font></center>
+        <center><font color="#00FF00" style = "font-family:'Script MT'" font size = 4><h1>Audio, Visão e Seção de PDS da Voz - Codificação de Sinais Multimidias</h1></font></center>
     </div> 
     <div id="conteudo">
         <div id="PrimeiroConteudo" class="pdf">
@@ -54,7 +54,42 @@
             <center><p style = "font-family:'Arial'" font size = 4 width="30%" height="30%"><b>Teste de Acuidade Visual:</b> Em todos os testes realizados de visão, os resultados foram satisfatórios
             para ambos os olhos. Entretanto, no último teste (Visual Field) o resultado foi ruim, representando problemas no problemas no campo de visão periférico como distorções ou falta de imagem.
             Como eu utilizo óculos e no momento que fiz o teste fiz sem óculos, acredito que isto pode ter interferido no resultado.</p></center>
-        </div>   
+        </div>
+        <center><p>-------------------------------------------------------------------------------------------------------------------------------------------------------</p></center>
+        <div id="QuartoConteudo" class="pdf">
+            <h3 align="center" style = "font-family:'Arial'" font size = 5> Seção de PDS da Voz</h3>	
+			<br>
+			<center><h3 style = "font-family:'Arial'" font size = 4> Objetivos:</h3></center>
+			<center><p style = "font-family:'Arial'" font size = 4 width="30%" height="30%">
+					Esse Laboratório tem como objetivo gravar e comparar sinais de voz com vários tipos de microfone: dinâmico e capacitivo, além de observar características temporarais importantes no sinal de voz como envoltória de Energia e Pitch e analisar espectrograma e domínio da frequência. 
+			</p></center>
+			<center><h3 style = "font-family:'Arial'" font size = 4> Audios:</h3></center>
+			<center><p style = "font-family:'Arial'" font size = 4 width="30%" height="30%"> Os áudios em sequência utilizados para os testes foram: Voz falada, Dígitos, e Poema.</p></center>
+			<h1 style="display: flex; justify-content: center"><audio controls>
+							<source src="Preto/GiovanneCampanha.wav" type="audio/wav">
+					</audio></h1>
+			<h1 style="display: flex; justify-content: center"><audio controls>
+						<source src="Preto/RA11201920745.wav" type="audio/wav">
+					</audio></h1>
+			<h1 style="display: flex; justify-content: center"><audio controls>
+						<source src="Preto/Camoes_GiovanneCampanha.wav" type="audio/wav">
+					</audio></h1>		
+        </div>
+        <div id="QuintoConteudo" class="pdf">
+            <p style = "font-family:'Arial'" font size = 4 width="30%" height="30%"> Resultados obtidos para voz falada: Obtida a energia e o espectrograma do áudio completo e em seguida o espectro e a autocorrelação para a vogal de "Gi".</p>
+            <center><td><img  width="70%" height="70%" src="Preto/1.png"/></td></center>
+            <center><td><img  width="70%" height="70%" src="Preto/2.png"/></td></center>
+        </div>
+		<div id="SextoConteudo" class="pdf">		
+			<p style = "font-family:'Arial'" font size = 4 width="30%" height="30%"> Resultados obtidos para dígitos: Obtida a energia e o espectrograma do áudio completo e em seguida o espectro e a autocorrelação para a vogal de "Um".</p>
+            <center><td><img  width="70%" height="70%" src="Preto/3.png"/></td></center>
+            <center><td><img  width="70%" height="70%" src="Preto/4.png"/></td></center>
+        </div>
+        <div id="SetimoConteudo" class="pdf">		
+			<p style = "font-family:'Arial'" font size = 4 width="30%" height="30%"> Resultados obtidos para voz declamada: Obtida a energia e o espectrograma do áudio completo e em seguida o espectro e a autocorrelação para a vogal de "Cam".</p>
+            <center><td><img  width="70%" height="70%" src="Preto/5.png"/></td></center>
+            <center><td><img  width="70%" height="70%" src="Preto/6.png"/></td></center>
+        </div>		
     </div> 
 </body>
 </html>

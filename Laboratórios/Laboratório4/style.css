@@ -11,8 +11,19 @@ header {
   background-color: #FF6347;
   padding: 30px;
   text-align: center;
-  font-size: 35px;
+  font-size: 50px;
   color: white;
+}
+.menu{
+	float: left;
+	width: 10%;
+	height:10000px;
+	background-color: #2f875e;
+}
+.intro{
+	align-content: center;
+	width: 88%;
+	float: righr;
 }
 
 h1 {
@@ -24,8 +35,28 @@ h1 {
 h2 {
 	color: black;
 	font-family: Arial;
-	text-align: center;
+	text-align: justify;
 	font-size: 20px;
+}
+
+h3 {
+	color: black;
+	font-family: Arial;
+	text-align: center;
+	font-size: 30px;
+}
+h4 {
+	color: black;
+	font-family: Arial;
+	text-align: justify;
+	font-size: 17px;
+}
+
+h5 {
+	color: black;
+	font-family: Arial;
+	text-align: center;
+	font-size: 17px;
 }
 
 p {
@@ -60,36 +91,71 @@ p {
 .perfil-text p{
     color:white;
     width: 100%;
-	text-align: left;
+	text-align: center;
 	font-size: 25px;
 }
 .perfil-title{
     font-weight: 800;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 60px;
     color:white;
-    text-align: left;
+    text-align: center;
 }
 
+.audios{
+	align-content: center;
+	
+}
 .integrantes{
 	align-content: center;
-}
-
-.lucas{
-	float: left;
-	width: 25%;
-}
-
-.matheus{
-	float: left;
-	width: 25%;
-}
-.giovanne{
+	width: 88%;
 	float: right;
-	width: 25%;
+}
+.button {
+  display: inline-block;
+  padding: 20px 50px;
+  font-size: 27px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #02C269;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 9px #424242;
+}
+.button:hover {
+	background-color: #016939
 }
 
-.juliana{
-	float: right;
-	width: 25%;
+
+.button:active {
+  background-color: #016939;
+  box-shadow: 0 5px #424242;
+  transform: translateY(4px);
+}
+.buttonmenu {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #02C269;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 9px #424242;
+}
+.buttonmenu:hover {
+	background-color: #016939
+}
+
+.buttonmenu:active {
+  background-color: #016939;
+  box-shadow: 0 5px #424242;
+  transform: translateY(4px);
+}nsform: translateY(4px);
 }

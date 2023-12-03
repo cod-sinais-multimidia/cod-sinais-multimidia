@@ -114,6 +114,9 @@
 	<audio controls> <source src="Lucas/RBD7_V3.wav" type="audio/wav">
 		Your browser does not support the audio element.
 	</audio>
+	
+	
+	
 	<h4> Os demais espectrogramas podem ser vistos clicando no link do notebook abaixo:</h4>
 	<p class="texto_padrao" style="margin-bottom: 10px;"> <h2>Link para o notebook Google Colab: <a href="https://colab.research.google.com/drive/1hqMVp4HQOrxkVWgj5kiNvsJmbDkPejTg?usp=sharing" target="_blank"><i
                     class="texto_padrao">Notebook</i></a></p></h2>
@@ -139,55 +142,70 @@
 	<p>----------------------------------------------------------------------------------------------------------------------------</p>
 		<h2> Matheus Barison:</h2>
 	
-	<h4>Áudio original</h4>
-	<audio controls> <source src="Matheus/audio_original.wav" type="audio/wav">
+	<audio controls> <source src="Matheus/frase_prata.wav" type="audio/wav">
 		Your browser does not support the audio element.
 	</audio>
-	<h4>Áudio com fatores N igual a 9, 5 e 0</h4>
-	<audio controls> <source src="Matheus/audio_fator9.wav" type="audio/wav">
-		Your browser does not support the audio element.
-	</audio>
-	<audio controls> <source src="Matheus/audio_fator5.wav" type="audio/wav">
-		Your browser does not support the audio element.
-	</audio>
-	<audio controls> <source src="Matheus/audio_fator0.wav" type="audio/wav">
-		Your browser does not support the audio element.
-	</audio>
-	<h4> Espectrogramas fator N igual 9, 5 e 0:		</h4>
-	<td><img  width="500" height="300" src="Matheus/espec_fator9.png"/></td><td><img  width="500" height="300" src="Matheus/espec_fator5.png"/></td><td><img  width="500" height="300" src="Matheus/espec_fator0.png"/></td>
-	<h4>Áudios acelerados</h4>
-	<audio controls> <source src="Matheus/audio_fator9_fast.wav" type="audio/wav">
-		Your browser does not support the audio element.
-	</audio>
-	<audio controls> <source src="Matheus/audio_fator5_fast.wav" type="audio/wav">
-		Your browser does not support the audio element.
-	</audio>
-	<audio controls> <source src="Matheus/audio_fator0_fast.wav" type="audio/wav">
-		Your browser does not support the audio element.
-	</audio>
-	<h4>Áudios lentos</h4>
-	<audio controls> <source src="Matheus/audio_fator0_slow.wav" type="audio/wav">
-		Your browser does not support the audio element.
-	</audio>
-	
-	<p class="texto_padrao" style="margin-bottom: 10px;"> <h2>Link para o notebook Google Colab: <a href="https://colab.research.google.com/drive/129CoB6u70vrh3f2MiBbNhuDTG0RaSyRY#scrollTo=8ywOCWSBh4BK" target="_blank"><i
-                    class="texto_padrao">Notebook</i></a></p></h2>
-	
+	<br><br>
+	<h2>Resumo com compressões:</h2>
+	<table border="1">
+    <tr>
+        <th>Integrante/Música</th>
+        <th>Original</th>
+        <th>Fator 0</th>
+		<th>Fator 7</th>
+		<th>Fator 9</th>
+		<th>Fator 0 - Vel. 2x</th>
+		<th>Fator 7 - Vel. 2x</th>
+		<th>Fator 9 - Vel. 2x</th>
+    </tr>
+    <tr>
+        <th>Giovanne/</th>
+        <td>kb</td>
+		<td>kb</td>
+		<td>kb</td>
+		<td>kb</td>
+		<td>kb</td>
+		<td>kb</td>
+		<td>kb</td>
+        
+    </tr>
+    <tr>
+        <th>Juliana/</th>
+        <td>xkb</td>
+		<td>xkb</td>
+		<td>xkb</td>
+		<td>xkb</td>
+		<td>kb</td>
+		<td>kb</td>
+		<td>kb</td>
+    </tr>
+	<tr>
+        <th>Lucas/RBD</th>
+        <td>8291kb</td>
+		<td>5042kb</td>
+		<td>2843kb</td>
+		<td>2111kb</td>
+        <td>1504kb</td>
+		<td>1504kb</td>
+		<td>1504kb</td>
+    </tr>
+	<tr>
+        <th>Matheus/</th>
+        <td>kb</td>
+		<td>kb</td>
+		<td>kb</td>
+		<td>kb</td>
+		<td>kb</td>
+		<td>kb</td>
+		<td>kb</td>
+    </tr>
+</table>
 					
 	<h3> Conclusões: </h3>
-	<h4>Ao longo deste relatório, exploramos as capacidades da ferramenta FFMpeg para codificação de áudio, utilizando uma variedade de comandos e parâmetros disponíveis no ambiente do Google Colab.
-Aprofundamos nosso entendimento ao explorar a codificação de áudio utilizando o codec libmp3lame. Experimentamos diferentes níveis de qualidade de áudio, ajustando o parâmetro de qualidade -q:a em valores que variam de 0 a 9, sendo 0 o parâmetro que fornece uma maior taxa de bits. Além disso, analisamos o impacto da taxa de bits (-b:a) em 64k e 128k, revelando as nuances na compressão e qualidade do áudio resultante.
-Desbravamos ainda mais as capacidades do FFMpeg ao alterar as velocidades do áudio, aplicando o filtro atempo com os comandos !ffmpeg -i -filter:a "atempo=2.0" -vn e !ffmpeg -i -filter:a "atempo=0.5" -vn. Estas experiências forneceram insights sobre as possibilidades de manipulação temporal, oferecendo flexibilidade na adaptação do conteúdo sonoro conforme necessário.
-Foi realizado a plotagem dos espectrogramas gerados pela biblioteca matplotlib.pyplot. Essas visualizações proporcionaram uma compreensão visual das alterações realizadas, permitindo uma análise mais aprofundada das características espectrais do áudio processado.
-Em síntese, este relatório oferece uma visão abrangente e prática das capacidades do FFMpeg no contexto da codificação de áudio. As experimentações realizadas proporcionaram uma compreensão sólida dos parâmetros e comandos disponíveis, oferecendo uma base valiosa para futuras explorações e aplicações práticas.
- 	</h4>	
-	<br>	
+	<h4> 	</h4>	
+	<br>		
 		
 	<h3> Referências </h3>
-
-	<ol style="text-align: start">
-		<li>FFMpeg Documentation. Disponível em: https://ffmpeg.org/documentation.html</li>
-	</ol>
 		
 </div>
 	

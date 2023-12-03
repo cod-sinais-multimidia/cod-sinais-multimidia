@@ -175,10 +175,19 @@
 	
 					
 	<h3> Conclusões: </h3>
-	<h4> 	</h4>	
-	<br>		
+	<h4>Ao longo deste relatório, exploramos as capacidades da ferramenta FFMpeg para codificação de áudio, utilizando uma variedade de comandos e parâmetros disponíveis no ambiente do Google Colab.
+Aprofundamos nosso entendimento ao explorar a codificação de áudio utilizando o codec libmp3lame. Experimentamos diferentes níveis de qualidade de áudio, ajustando o parâmetro de qualidade -q:a em valores que variam de 0 a 9, sendo 0 o parâmetro que fornece uma maior taxa de bits. Além disso, analisamos o impacto da taxa de bits (-b:a) em 64k e 128k, revelando as nuances na compressão e qualidade do áudio resultante.
+Desbravamos ainda mais as capacidades do FFMpeg ao alterar as velocidades do áudio, aplicando o filtro atempo com os comandos !ffmpeg -i -filter:a "atempo=2.0" -vn e !ffmpeg -i -filter:a "atempo=0.5" -vn. Estas experiências forneceram insights sobre as possibilidades de manipulação temporal, oferecendo flexibilidade na adaptação do conteúdo sonoro conforme necessário.
+Foi realizado a plotagem dos espectrogramas gerados pela biblioteca matplotlib.pyplot. Essas visualizações proporcionaram uma compreensão visual das alterações realizadas, permitindo uma análise mais aprofundada das características espectrais do áudio processado.
+Em síntese, este relatório oferece uma visão abrangente e prática das capacidades do FFMpeg no contexto da codificação de áudio. As experimentações realizadas proporcionaram uma compreensão sólida dos parâmetros e comandos disponíveis, oferecendo uma base valiosa para futuras explorações e aplicações práticas.
+ 	</h4>	
+	<br>	
 		
 	<h3> Referências </h3>
+
+	<ol style="text-align: start">
+		<li>FFMpeg Documentation. Disponível em: https://ffmpeg.org/documentation.html</li>
+	</ol>
 		
 </div>
 	
